@@ -1,0 +1,42 @@
+\documentclass{jarticle}
+\usepackage[dvipdfmx]{graphicx}%TeXworks画像貼り付け
+\usepackage{url}% パッケージ url を読み込む
+% ===== プリアンブル内 ===== %
+
+
+
+\title{B4生への課題}
+\author{高橋碧斗}
+\date{作成年月日：\today}
+
+
+
+\begin{document}
+% ===== document内 ===== %
+
+\maketitle
+
+\section{コンビニ}%章
+
+
+\subsection{ミニストップ}%節
+\includegraphics[width=3cm]{minist.png}
+
+\subsubsection{商品一覧}%項
+
+%%%%%表作成%%%%%
+\begin{tabular}{lrr}\hline
+   品名   & 単価(円) & 個数 \\ \hline
+   りんご & 100       & 5     \\
+   みかん & 50        & 10\\      \hline
+\end{tabular}
+
+%%%%%参考文献%%%%%
+\begin{thebibliography}{99}
+  \bibitem{sankoubunken} 大東文化大学 経営学部 経営学科 水谷正大 参考文献の書き方 \\ \url{http://www.ic.daito.ac.jp/~mizutani/tex/drill/drillbook3.html}
+
+
+
+\end{thebibliography}
+
+\end{document}
